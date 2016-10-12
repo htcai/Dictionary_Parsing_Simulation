@@ -1,0 +1,108 @@
+T R
+B
+B Y
+B R
+B L
+B W
+S
+K
+CH
+SH
+HH
+CH Y
+K Y
+K L
+CH L
+K W
+SH W
+K R
+SH R
+CH R
+CH W
+Z
+D
+JH
+D R
+D W
+D Y
+D V
+Y
+F
+F Y
+F L
+F R
+F W
+G
+ZH
+G Y
+G R
+JH Y
+G L
+N
+G W
+HH Y
+M
+R
+SH Y
+HH W
+W
+ZH W
+JH W
+N Y
+L
+P
+L Y
+M Y
+M W
+N W
+P Y
+P L
+P W
+P R
+T
+R W
+R Y
+S K
+SH L
+SH M
+SH N
+S K Y
+S K L
+S K R
+S Y
+S L
+S M
+S N
+S W
+S P
+S P Y
+S P L
+S P R
+S K W
+S R
+S T R
+S T
+S T Y
+S V
+SH V
+TH
+DH
+DH Y
+TH Y
+TH R
+TH W
+T Y
+T L
+T W
+T S
+T S Y
+T V
+V
+V Y
+V L
+V R
+Z Y
+Z L
+Z M
+Z V
+Z W

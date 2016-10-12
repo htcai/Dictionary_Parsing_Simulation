@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+
+</head>
+
+<body>
+
+<h1>Dictionary Parsing and Simulation for the Project of Language Optimality and Evolution</h1>
+
+<p>This project aims to provide evidence against the claim of <a href="http://www.sciencedirect.com/science/article/pii/S0010027711002496">Piantadosi et al. 2012</a>, by showing that the pattern of homophony (e.g., of English) can be replicated via a random procedure by taking into account of the co-occurrence information of adjacent syllables in words.</p>
+
+<p>This repository contains Python scripts that are produced to perform the following tasks.</p>
+
+<ul>
+<li><code>syllabification.py</code>: Parses the pronunciations (i.e., phonological forms) of words into syllables, following the principle of maximzing the cluster of onset consonants of each syllable.</li>
+<li><code>simulate_homophony_by_syllables</code>: Simulates the pattern of homophony of English via a randomized bigram model constructed from syllables.</li>
+</ul>
+
+<p>The <code>data</code> folder contains the results of parsing the CMU Pronunciation Dictionary.</p>
+
+<ul>
+<li><code>cmudict_onset</code>: The (short) list of possible onsets that are legitimate, which was manually checked by Aletheia Cui and Ava Irani.</li>
+<li><code>cmudict_syllabified</code>: The phonological forms that are syllabified.</li>
+<li><code>cmudict_nostress.txt</code>: Same as <code>cmudict_syllabified</code> except that stress markers were removed.</li>
+<li><code>cmudict_clustered.txt</code>: Words are clustered by their phonological forms.</li>
+<li><code>cmudict_stems.txt</code>: Same as <code>cmudict_nostress.txt</code> except that all inflected forms of words were removed.</li>
+<li><code>generated_words.txt</code>: The list of synthetic phonological forms that are randomly generated in the simulation.</li>
+<li><code>homophony_count.txt</code>: The countings of pronunciation types and tokens, which are close to the actual pattern of English.</li>
+</ul>
+
+</body>
+</html>
